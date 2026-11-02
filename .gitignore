@@ -1,0 +1,43 @@
+@'
+# Python environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Datasets
+data/raw/
+data/processed/
+
+# Frontend dependencies and build
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Secrets
+.env
+.env.*
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.log
+.DS_Store
+
+# Backup copies
+backup/
+'@ | Set-Content .gitignore
+!.env.example
